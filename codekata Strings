@@ -1,0 +1,7 @@
+k=[]
+s=int(input())
+l=list(map(int,input().split()))
+l.sort()
+l.reverse()
+k.append("".join(map(str,l)))
+print(*k)
