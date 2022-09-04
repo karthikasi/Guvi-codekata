@@ -1,0 +1,18 @@
+s1,s2,k=map(str,input().split())
+l=int(k)
+count=0
+for i, (x, y) in enumerate(zip(s1, s2)):
+        if x != y:
+            count+=1
+if l==count:
+    print('yes')
+else:
+    print('no')
+            
+        
+        
+        
+        
+        
+        
+        
