@@ -1,0 +1,9 @@
+s=input()
+k=0
+for i in s:
+    k=k + int(i)
+l=str(k)
+if l==l[::-1]:
+    print('yes')
+else:
+    print('no')
