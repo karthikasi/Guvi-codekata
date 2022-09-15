@@ -1,0 +1,9 @@
+a=int(input())
+b=[]
+for i in range(a):
+	x=int(input())
+	y=list(map(int,input().split()))
+	y.sort()
+	for j in range(len(y)):
+	    b.append(y[j])
+print(*b)
