@@ -1,0 +1,9 @@
+s=str(input())
+k=[]
+for i in s:
+    if s.count(i)==1:
+        k.append(i)
+if len(k)==0:
+    print(-1)
+else:
+    print(len(k))
